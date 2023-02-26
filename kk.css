@@ -1,0 +1,112 @@
+
+.container {
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 60%; 
+    border-radius: 20px;
+  }
+  
+  .mymodel {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 60%; 
+    border-radius: 20px;
+  }
+  
+  .form{
+   
+   
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+  
+  
+.form h1{
+    color: white;
+    
+}
+.form h4{
+    color: white;
+}
+
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.su{
+    padding: 10px 20px;
+    margin-top: 1px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+
+}
+.ll{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+  
+  /* --------------------- */
+
+
+  #vidbg {
+    position: fixed;
+    width: 100%;
+    height: 50%;
+  
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ratio:16/9) 
+{
+    #vidbg
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    
+}
+
+@media (max-aspect-ratio:16/9) 
+{
+    #vidbg
+    {
+        width: auto;
+        height: 100%;
+    }
+
+    
+}
+
+
